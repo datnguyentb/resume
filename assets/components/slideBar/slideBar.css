@@ -190,6 +190,10 @@
     width: 100%;
     position: relative;
   }
+  #slide-bar .avatar {
+    width: 150px;
+    height: 150px;
+  }
 }
 @media (max-width: 768px) {
   #slide-bar {
