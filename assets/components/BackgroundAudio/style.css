@@ -1,0 +1,16 @@
+#background-audio {
+  display: none; }
+
+.control-background-audio {
+  position: fixed;
+  top: 20px;
+  left: 85px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 15px;
+  backdrop-filter: blur(10px);
+  cursor: pointer; }
+  .control-background-audio i {
+    color: var(--white); }
+
+/*# sourceMappingURL=style.css.map */

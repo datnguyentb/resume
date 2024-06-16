@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/components/fontAwesome/fontAwesome/all.css">
+    <link rel="stylesheet" href="./assets/components/GlobalStyle/GlobalStyle.css">
+    <link rel="stylesheet" href="./assets/components/slideBar/slideBar.css">
+    <link rel="stylesheet" href="./assets/components/Content/Content.css">
+    <link rel="stylesheet" href="/assets/components/BackgroundAudio/style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="slide-bar">
+            <div class="wrapper">
+
+                <div class="avatar">
+                    <img src="./assets/imgs/avatar1.jpg" alt="avatar">
+                </div>
+                <div class="profile">
+                    <h4 class="name">Mr. Dat</h4>
+                    <span class="job">Ui/Ux Designer</span>
+                    <div class="social-network">
+                        <a class="social-btn fb" href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="social-btn tw" href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a class="social-btn ins" href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a class="social-btn tele" href=""><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                    <div class="info">
+                        <div class="item phone">
+                            <i class="fa-solid fa-mobile-notch"></i>
+                            <div class="sub">
+                                <p>Phone</p>
+                                <a href="tel:+84123456789">+84123456789</a>
+                            </div>
+                        </div>
+                        <div class="item email">
+                            <i class="fa-regular fa-envelope-open-text"></i>
+                            <div class="sub">
+                                <p>Email</p>
+                                <a href="mailto:datnguyen.github@gmail.com">datnguyen.github@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="item location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="sub">
+                                <p>Location</p>
+                                <a>Vu thu, Thai Binh</a>
+                            </div>
+                        </div>
+                        <div class="item date">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <div class="sub">
+                                <p>Birthday</p>
+                                <a href="">April 14, 1999</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="download">
+                    <button>
+                        <i class="fa-regular fa-download"></i>
+                        Download Cv
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div class="wrapper">
+                <div class="header">
+                    <ul>
+                        <li class="item active">
+                            <i class="fa-regular fa-user"></i>
+                            <span class="title">About</span>
+                        </li>
+                        <li class="item">
+                            <i class="fa-light fa-file-user"></i>
+                            <span class="title">Resume</span>
+                        </li>
+                        <li class="item">
+                            <i class="fa-light fa-briefcase"></i>
+                            <span class="title">Work</span>
+                        </li>
+                        <li class="item">
+                            <i class="fa-brands fa-blogger"></i>
+                            <span class="title">Blogs</span>
+                        </li>
+                        <li class="item">
+                            <i class="fa-regular fa-address-book"></i>
+                            <span class="title">Contact</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="container-content">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- background-audio -->
+        <audio id="background-audio" controls>
+            <source src="./assets/audio/background-audio.mp3" type="audio/mpeg">
+            Trình duyệt của bạn không hỗ trợ thẻ audio.
+        </audio>
+        <div class="control-background-audio">
+            <i class="fa-regular fa-bell-slash"></i>
+        </div>
+    </div>
+</body>
+<script type="module" src="./assets/components/slideBar/index.js"></script>
+<script type="module" src="./assets/components/Content/index.js"></script>
+<script type="module" src="./assets/components/BackgroundAudio/index.js"></script>
+</html>
