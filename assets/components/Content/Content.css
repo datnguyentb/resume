@@ -47,12 +47,16 @@
   border-radius: var(--boder-radius);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   #content {
     margin: 150px 0 0 0;
   }
   #content .header ul {
     width: 100%;
+  }
+  #content .header li {
+    width: auto;
+    flex: 1;
   }
 }
 

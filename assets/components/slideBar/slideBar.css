@@ -2,7 +2,7 @@
 #slide-bar {
   --slidebar-width: 500px;
   --avatar-size: 200px;
-  width: var(--slidebar-width);
+  width: calc(100%/3);
   display: inline-block;
   position: sticky;
   top: calc(var(--avatar-size)/2 + 15px);
@@ -10,7 +10,7 @@
 }
 #slide-bar .wrapper {
   background-color: var(--white);
-  width: var(--slidebar-width);
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -183,19 +183,6 @@
   }
 }
 @media (max-width: 1024px) {
-  #slide-bar {
-    width: calc(var(--slidebar-width) - 50px);
-  }
-  #slide-bar .wrapper {
-    width: 100%;
-    position: relative;
-  }
-  #slide-bar .avatar {
-    width: 150px;
-    height: 150px;
-  }
-}
-@media (max-width: 768px) {
   #slide-bar {
     width: 100%;
     position: relative;

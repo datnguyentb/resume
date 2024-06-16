@@ -60,18 +60,21 @@
 
 
 //Reponsive
-@media (max-width: 1024px) {
-    
-}
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     #content {
 
         .header {
             // display: none;
             ul {
             width: 100%;
-            }        }
+            }
+            
+            li {
+                width: auto;
+                flex: 1;
+            }
+        }
         margin: 150px 0 0 0;
     }
 }
