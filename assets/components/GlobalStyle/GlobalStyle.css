@@ -3,29 +3,36 @@
   margin: 0;
   padding: 0;
   --white: #fff;
-  --boder-radius: 10px; }
+  --boder-radius: 10px;
+}
 
 html {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 body {
-  color: #333; }
+  color: #333;
+}
 
 #main {
   display: flex;
   position: relative;
   flex-direction: row;
   padding: 285px 85px 0px 85px;
-  background-image: linear-gradient(to right, #ff5f6d, #f7c177); }
+  background-image: linear-gradient(to right, #ff5f6d, #f7c177);
+}
 
 button {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 a {
   text-decoration: none;
-  color: #333; }
+  color: #333;
+}
 
 li {
-  list-style: none; }
+  list-style: none;
+}
 
 /*# sourceMappingURL=GlobalStyle.css.map */

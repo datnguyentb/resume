@@ -1,22 +1,27 @@
+
 #slide-bar {
-    width: 400px;
+    //Dat bien
+    --slidebar-width: 500px;
+    --avatar-size: 200px;
+
+    width: var(--slidebar-width);
     display: inline-block;
     position: sticky;
-    top: 90px;
+    top: calc(var(--avatar-size)/2 + 15px);
     height: 100%;
     
     
     .wrapper {
         background-color: var(--white);
-        width: 400px;
+        width: var(--slidebar-width);
         height: 100%;
         display: flex;
         flex-direction: column;
         border-radius: var(--boder-radius);
     }
     .avatar {
-        width: 150px;
-        height: 150px;
+        width: var(--avatar-size);
+        height: var(--avatar-size);
         overflow: hidden;
         margin: -21% auto 0 auto;
         border-radius: 10px;
