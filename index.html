@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/components/GlobalStyle/GlobalStyle.css">
     <link rel="stylesheet" href="./assets/components/slideBar/slideBar.css">
     <link rel="stylesheet" href="./assets/components/Content/Content.css">
+    <link rel="stylesheet" href="/assets/components/BackgroundAudio/style.css">
 </head>
 <body>
     <div id="main">
@@ -109,20 +110,7 @@
         </div>
     </div>
 </body>
-<script>
-    const control_audio = document.querySelector('.control-background-audio')
-    const audio = document.getElementById('background-audio')
-
-    control_audio.addEventListener('click', () => {
-        if(audio.paused) {
-            audio.play()
-            control_audio.innerHTML = '<i class="fa-regular fa-volume"></i>';
-        } else {
-            audio.pause()
-            control_audio.innerHTML = '<i class="fa-regular fa-bell-slash"></i>'
-        }
-    })
-</script>
 <script type="module" src="./assets/components/slideBar/index.js"></script>
 <script type="module" src="./assets/components/Content/index.js"></script>
+<script type="module" src="./assets/components/BackgroundAudio/index.js"></script>
 </html>
