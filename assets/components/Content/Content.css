@@ -47,4 +47,13 @@
   border-radius: var(--boder-radius);
 }
 
+@media (max-width: 768px) {
+  #content {
+    margin: 150px 0 0 0;
+  }
+  #content .header ul {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=Content.css.map */

@@ -35,4 +35,11 @@ li {
   list-style: none;
 }
 
+@media (max-width: 768px) {
+  #main {
+    flex-direction: column;
+    padding: 200px 50px 0px 50px;
+  }
+}
+
 /*# sourceMappingURL=GlobalStyle.css.map */

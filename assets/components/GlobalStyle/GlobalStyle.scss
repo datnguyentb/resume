@@ -38,3 +38,21 @@ a {
 li {
     list-style: none;
 }
+
+
+//Reponsive
+@media (max-width: 1024px) {
+    
+}
+
+@media (max-width: 768px) {
+    #main {
+        flex-direction: column;
+        padding: 200px 50px 0px 50px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    
+}

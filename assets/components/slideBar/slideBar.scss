@@ -4,7 +4,6 @@
     --slidebar-width: 500px;
     --avatar-size: 200px;
 
-    max-width: var(--slidebar-width);
     width: var(--slidebar-width);
     display: inline-block;
     position: sticky;
@@ -14,7 +13,6 @@
     
     .wrapper {
         background-color: var(--white);
-        max-width: var(--slidebar-width);
         width: var(--slidebar-width);
         height: 100%;
         display: flex;
@@ -228,4 +226,25 @@
     100% {
         background-position: left center;
     }
+}
+
+//Reponsive
+@media (max-width: 1024px) {
+    
+}
+
+@media (max-width: 768px) {
+    #slide-bar {
+        width: 100%;
+        position: relative;
+        // margin: 200px auto 0;
+
+        .wrapper {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    
 }

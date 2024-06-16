@@ -56,3 +56,25 @@
         border-radius: var(--boder-radius);
     }
 }
+
+
+//Reponsive
+@media (max-width: 1024px) {
+    
+}
+
+@media (max-width: 768px) {
+    #content {
+
+        .header {
+            // display: none;
+            ul {
+            width: 100%;
+            }        }
+        margin: 150px 0 0 0;
+    }
+}
+
+@media (max-width: 480px) {
+    
+}
