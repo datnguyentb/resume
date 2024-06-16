@@ -54,5 +54,8 @@ li {
 }
 
 @media (max-width: 480px) {
-    
+    #main {
+        flex-direction: column;
+        padding: 100px 10px 0px 10px;
+    }
 }

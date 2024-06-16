@@ -41,5 +41,11 @@ li {
     padding: 200px 50px 0px 50px;
   }
 }
+@media (max-width: 480px) {
+  #main {
+    flex-direction: column;
+    padding: 100px 10px 0px 10px;
+  }
+}
 
 /*# sourceMappingURL=GlobalStyle.css.map */
