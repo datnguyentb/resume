@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #content {
   flex: 1;
   margin-left: 15px;
@@ -25,7 +26,7 @@
   width: 70px;
   cursor: pointer;
 }
-#content .header li + li {
+#content .header a + a {
   margin-left: 11px;
 }
 #content .header i {
@@ -40,11 +41,66 @@
   background-image: linear-gradient(to right, #f86874, #FF0D49);
   color: var(--white);
 }
-#content .container-content {
+
+.container-content {
   background-color: var(--white);
   margin-top: 20px;
   height: 10000px;
   border-radius: var(--boder-radius);
+  padding: 60px;
+}
+
+.content-1 .title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.content-1 .title h1 {
+  text-transform: capitalize;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content-1 .title span {
+  margin-left: 25px;
+  height: 5px;
+  width: 200px;
+  background-color: #f86874;
+  border-radius: 5px;
+  text-align: justify;
+}
+.content-1 .sub-title {
+  line-height: 1.7;
+}
+.content-1 p + p {
+  margin-top: 10px;
+}
+.content-1 .main-content h3 {
+  margin-top: 20px;
+}
+.content-1 .items {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* Tạo 2 cột với chiều rộng bằng nhau */
+  gap: 30px;
+  cursor: pointer;
+}
+.content-1 .item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #FFF3F5;
+  padding: 15px 20px;
+}
+.content-1 .item i {
+  font-size: 45px;
+  color: #f86874;
+}
+.content-1 .item .nav {
+  margin-left: 20px;
+}
+.content-1 .item .nav p {
+  line-height: 2;
 }
 
 @media (max-width: 1024px) {

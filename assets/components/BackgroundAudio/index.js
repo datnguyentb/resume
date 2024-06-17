@@ -10,3 +10,7 @@ control_audio.addEventListener('click', () => {
         control_audio.innerHTML = '<i class="fa-regular fa-bell-slash"></i>'
     }
 })
+
+audio.addEventListener('ended', () => {
+    control_audio.innerHTML = '<i class="fa-regular fa-bell-slash"></i>'
+})

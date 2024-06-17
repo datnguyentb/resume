@@ -29,7 +29,7 @@
             cursor: pointer;
         }
 
-        li + li {
+        a + a {
             margin-left: 11px;
         }
 
@@ -48,13 +48,77 @@
             color: var(--white);
         }
     }
+}
 
-    .container-content {
-        background-color: var(--white);
+.container-content {
+    background-color: var(--white);
         // background-color: #f86874;
         margin-top: 20px;
         height: 10000px;
         border-radius: var(--boder-radius);
+        padding: 60px;
+}
+
+.content-1 {
+    .title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 10px;
+        h1 {
+            text-transform: capitalize;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        span {
+            margin-left: 25px;
+            height: 5px;
+            width: 200px;
+            background-color: #f86874;
+            border-radius: 5px;
+            text-align: justify;
+        }
+    }
+
+    .sub-title {
+        line-height: 1.7;
+    }
+
+    p + p{
+        margin-top: 10px;
+    }
+
+    .main-content {
+        h3 {
+            margin-top: 20px;
+        }
+    }
+
+    .items {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Tạo 2 cột với chiều rộng bằng nhau */
+        gap: 30px;
+        cursor: pointer;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: #FFF3F5;
+        padding: 15px 20px;
+        i {
+            font-size: 45px;
+            color: #f86874;
+        }
+    }
+
+    .item .nav {
+        margin-left: 20px;
+        p {
+            line-height: 2;
+        }
     }
 }
 
